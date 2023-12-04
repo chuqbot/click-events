@@ -1,6 +1,6 @@
 const button = document.querySelector("button");
 const body = document.querySelector("body");
-button.addEventListener('click' , responseToClick)
+button.addEventListener('click', responseToClick)
 
 
 function responseToClick() {
@@ -10,7 +10,7 @@ function responseToClick() {
 }
 
 const bbutton = document.querySelector("bbutton");
-bbutton.addEventListener('click' , response)
+bbutton.addEventListener('click', response)
 function response() {
     const h3Tag = document.createElement('h3');
     h3Tag.textContent = "Bar";
